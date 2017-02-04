@@ -1,0 +1,212 @@
+* {
+    margin:0;
+    padding:0
+}
+body {
+    font:85% Tahoma, Geneva, sans-serif;
+    background:#3ac
+}
+
+#wrapper{
+    width: 70%;
+    margin: 0px auto;
+}
+
+#main {
+    width:70%;
+    margin:1em auto 0;
+    background:#fff;
+    padding:2em
+}
+h1 {
+    color:#ca3;
+    font-size:2em;
+    margin-bottom:.5em
+}
+p {
+    line-height:1.5em
+}
+p, textarea {
+    margin-bottom:1em
+}
+label {
+    width:140px;
+    line-height: 2.2;
+    font-weight: bold;
+    display:inline-block;
+    cursor:hand;
+    text-align:left;
+}
+button {
+    padding:.2em 1em
+}
+input, textarea {
+    padding:.2em
+}
+textarea {
+    font-family:'Lucida Console', Monaco, monospace;
+    font-size:1.2em;
+}
+
+#headertext {
+    overflow:hidden
+}
+.l {
+    float:left
+}
+.r {
+    float:right
+}
+#login {
+    text-align:center;
+    margin:2em
+}
+.error {
+    color:#c33
+}
+.success {
+    color:#3c3
+}
+
+div.picrow{
+    display: block;
+    min-height: 60px;
+    padding: 5px;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+}
+
+div.content a.imgdel {
+    color: red;
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+    float: right;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.ui-widget-header {
+    background: none;
+    color: #222222;
+    font-weight: bold;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 0px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3;
+    background: #333;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #aaaaaa;
+    background: #ffffff;
+    font-weight: normal;
+    color: #212121;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: yellow;
+    text-decoration: none;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#headertext{
+    color: white;
+    background-color: #333;
+    padding: 10px;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+p.r.logout a{
+    color: red;
+    background: yellow;
+    padding: 5px;
+    text-decoration: none;
+}
+
+p.viewlink a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+p.white a{
+    color: white;
+    text-decoration: none;
+}
+
+#stats p {
+    opacity: 100;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+}
+
+#dialog{
+    background: green;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.ui-widget-overlay {
+    background-color: black;
+    background-image: none;
+    opacity: 0.9;
+    z-index: 1040;    
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.ui-dialog{
+    z-index: 100000;
+}
+
+.signbox{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 140px;
+    color: white;
+    background-color: darkslategray;
+    padding: 40px;
+    font-size: 1.3em;
+    clear: both;
+}
+
+div.signbox div a{
+    color: whitesmoke;
+}
+
+div.signbox input{
+    text-align: center;
+}

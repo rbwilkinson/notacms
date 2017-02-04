@@ -1,0 +1,1 @@
+<h6>Opening Hours</h6>      <p class="contact-item">        <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>        <p>Fri-Sun: 11:00 AM - 02:00 AM</p>      </p>
