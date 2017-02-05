@@ -7,6 +7,11 @@ In your favourite web browser go to:
 
 {server_name}/edit
 
+username: admin
+password: password
+
+Be sure to change your login credentials soon after install.
+
 ##Troubleshooting
 Ensure that the edit folder's permissions are set at 755. 
 If 755 is not sufficient set to 777. 
