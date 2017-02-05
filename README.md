@@ -9,7 +9,6 @@ In your favourite web browser go to:
 
 
 username: admin
-
 password: password
 
 
@@ -19,8 +18,10 @@ Be sure to change your login credentials soon after install.
 
 ##Troubleshooting
 Ensure that the edit folder's permissions are set at 755. 
+
 If 755 is not sufficient set to 777. 
 chmod 755 edit/ -R
+
 
 
 You might have to also run:
